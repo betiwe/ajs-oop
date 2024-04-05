@@ -1,4 +1,4 @@
-import { Daemon } from "../daemon";
+import { Daemon } from "../Daemon";
 
 test("Неверно создаётся объект Daemon", () => {
   const human = new Daemon("Ernest", "Daemon");
